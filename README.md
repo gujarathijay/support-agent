@@ -12,6 +12,10 @@ A support ticket comes in, and three agents work it in sequence:
 
 Every run is traced (span-by-span) and tickets move through a simple approve/reject workflow before a response goes out.
 
+| Submit Ticket | Review Queue |
+|---|---|
+| ![Submit Ticket](docs/screenshots/submit-ticket.png) | ![Review Queue](docs/screenshots/review-queue.png) |
+
 ## Tech Stack
 
 - **Backend:** FastAPI, LangGraph, LangChain, Anthropic Claude
