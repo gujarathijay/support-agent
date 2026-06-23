@@ -91,7 +91,3 @@ cd backend
 python evals/run_evals.py            # logs to Braintrust if BRAINTRUST_API_KEY is set
 python evals/run_evals.py --local    # prints results to terminal only
 ```
-
-## License
-
-MIT
