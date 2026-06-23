@@ -1,0 +1,9 @@
+support_agent.db
+.venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+node_modules/
+backend/chroma_data/
+.claude/settings.local.json
