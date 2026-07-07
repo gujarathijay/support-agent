@@ -148,4 +148,20 @@ EVAL_DATASET = [
             "sentiment": "frustrated",
         },
     },
+    {
+        "input": {
+            "customer_name": "Carlos Mendes",
+            "customer_id": "CUST-009",
+            "message": (
+                "Hi, what are your support team's hours, and do you offer "
+                "phone support in addition to email? Just want to know "
+                "before I reach out with future questions."
+            ),
+        },
+        "expected": {
+            "category": "general",
+            "priority": "low",
+            "sentiment": "neutral",
+        },
+    },
 ]
